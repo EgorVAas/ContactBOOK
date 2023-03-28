@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Контактная книга</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Контактная книжка</h1>
+      <form id="contactForm">
+        <label for="name">Имя</label>
+        <input type="text" id="name" name="name" />
+        <label for="imageUrl">Фото</label>
+        <input type="text" id="imageUrl" name="imageUrl" />
+        <label for="phone">Телефон</label>
+        <input type="text" id="phone" name="phone" />
+        <button type="submit" id="submitBtn">Добавить</button>
+      </form>
+      <div class="contacts-list"></div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
